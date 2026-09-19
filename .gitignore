@@ -1,0 +1,66 @@
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Visual Studio & Build Tools
+.vs/
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.obj
+*.lib
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.out
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies (if vendored)
+external/*/build/
+external/*/.cmake/
+external/*/install/
+
+# Output binaries from tests
+test_processing
+test_ascii_render
+test_ui
+ascii-cam
+
+# macOS
+.DS_Store
+*.dylib
+
+# vcpkg
+vcpkg_installed/
+.vcpkg-root
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp files
+*.tmp
+*.bak
+
+# Environment files (if using env vars)
+.env
+.env.local
+
+# Runtime outputs
+*.log
+output/
