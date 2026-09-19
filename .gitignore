@@ -46,6 +46,7 @@ ascii-cam
 *.dylib
 
 # vcpkg
+vcpkg/
 vcpkg_installed/
 .vcpkg-root
 
@@ -64,3 +65,6 @@ __pycache__/
 # Runtime outputs
 *.log
 output/
+
+#practise
+practise/
