@@ -1,0 +1,25 @@
+# Prerequisites & Binaries
+*.exe
+*.o
+*.obj
+*.dll
+build/
+bin/
+
+# IDE & Editor folders
+.vscode/
+.vs/
+*.user
+*.suo
+.idea/
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Internal Team Distribution & Zips
+assignment/
+*.zip
+INSTRUCTIONS_*.txt
+WEEK_1_SUMMARY.txt
